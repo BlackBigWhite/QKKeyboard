@@ -5,15 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/QBPwdModule.svg?style=flat)](http://cocoapods.org/pods/QBPwdModule)
 [![Platform](https://img.shields.io/cocoapods/p/QBPwdModule.svg?style=flat)](http://cocoapods.org/pods/QBPwdModule)
 
-导入pod步骤:<br>
--------------
-
->1.导入私有库:<br>
-
->>$ pod repo add QBSpecs http://git.qianbaoqm.com/mobileios/QBSpecs.git<br>
-
->2.编辑 podfile:<br>
-
 >>```
 source 'http://git.qianbaoqm.com/mobileios/QBSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
