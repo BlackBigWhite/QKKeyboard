@@ -21,8 +21,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    QBKeyboard *kb = [self.textfield addKeyBoardViewWithType:QBKeyboardTypeAlphabetandandNumABC title:@"廊坊安全键盘"];
-    
+    [self.textfield addKeyBoardViewWithType:QBKeyboardTypeAlphabetandandNumABC title:@"安全键盘"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
