@@ -6,11 +6,9 @@
 [![Platform](https://img.shields.io/cocoapods/p/QBPwdModule.svg?style=flat)](http://cocoapods.org/pods/QBPwdModule)
 
 ```
-source 'http://git.qianbaoqm.com/mobileios/QBSpecs.git'
-source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 target ‘target_name’ do
-pod 'QBPwdModule', '~> 2.5’
+pod 'QBPwdModule'
 end
 ```
 
@@ -21,21 +19,15 @@ SDK使用说明:<br>
 
 ```
 #import "QBKeyboard.h"
--------
+
 QBKeyboard *keyboard = [[QBKeyboard alloc] initWithFrame:CGRectZero];
 keyboard.keyboardType = QBKeyboardTypeNumandX;
 keyboard.delegate = self;
-keyboard.numbers = @[@"1", @"3", @"2", @"5", @"4", @"6", @"7", @"8", @"9", @"0"];
-// 
-UITextField *textField = [[UITextField alloc] initWithFrame:CGRectZero];
 textField.inputView = keyboard;
-textField.text = @(123456789).stringValue;
-textField.placeholder = @"Type something…";
-textField.font = [UIFont systemFontOfSize:24.0f];
-//
+
 ----- or----
 #import "UITextField+QBKeyboard.h"
---------
+
 [self.textfield addKeyBoardViewWithType:QBKeyboardTypeNumandABC title:@"廊坊安全键盘"];
 ```
 
