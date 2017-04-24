@@ -1,0 +1,16 @@
+PODS:
+  - QBPwdModule (2.2)
+
+DEPENDENCIES:
+  - QBPwdModule (from `../`)
+
+EXTERNAL SOURCES:
+  QBPwdModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QBPwdModule: 08278e0ffa5c6a9d5579a06504fa486fabb68e85
+
+PODFILE CHECKSUM: 75b862026cd8941993f33c7ea5fcfb998f630173
+
+COCOAPODS: 1.2.0.beta.1

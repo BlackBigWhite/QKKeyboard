@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'QBPwdModule_Example' do
+  pod 'QBPwdModule', :path => '../'
+
+end

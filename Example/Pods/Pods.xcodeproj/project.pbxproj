@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A319FD8D142D5824C422FF2B3B772F9 /* QBSymbolView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF85643966AFFD552DA6D088C197A932 /* QBSymbolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CCF7885FDA75A588D65B81B249CA740 /* MMNumberKeyboardDeleteKey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2DEF544B3AD1A286627EAE3F74A1C4 /* MMNumberKeyboardDeleteKey@2x.png */; };
+		1228D872C8CEF7FAA79BD3370B8C70DF /* UIButton+QBConvenient.h in Headers */ = {isa = PBXBuildFile; fileRef = 488C9FB619A74B65232AC5D3BD5B6489 /* UIButton+QBConvenient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A5BE096351ADC43EE0EC1D282B434C /* login_c_character_keyboardLoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC14E5975042C785CD7E60FDF4C55A /* login_c_character_keyboardLoginButton.png */; };
+		30047066E32A9166F0839A83E2BC06E3 /* UIButton+QBConvenient.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB181E4D0625750D2AB1FA43EDC0601 /* UIButton+QBConvenient.m */; };
+		3B5DFD82C9765F48AAA0D5992A01C68E /* UITextField+QBKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6829879036B6E2249CC77F5E2EAC0ADE /* UITextField+QBKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D09DDEB4A5B6C59985361D441E07D93 /* login_c_symbol_keyboardLoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F0ABB9F7664DA299E7F91C7CDD58E6F8 /* login_c_symbol_keyboardLoginButton.png */; };
+		4D11E26B124F42634CE0DB3507569E05 /* c_charKeyboardButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 069E93E005AF0BB3F0301B3B31EF7D97 /* c_charKeyboardButton.png */; };
+		545D1973E67A54FDF8A9E1BC62DF4C0C /* QBSymbolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DD7FF666A6B1E9E64A1606668E5039 /* QBSymbolView.m */; };
+		5F9FE11577883679DEB1593202B6A6BE /* c_character_keyboardDeleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B783CE438B3A42B3D407E60BCC237FFA /* c_character_keyboardDeleteButton.png */; };
+		601F62DBC4ED738DEC584905D937E9BB /* UITextField+QBKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029AA36ADF08BBB01F62604BDE73EF1 /* UITextField+QBKeyboard.m */; };
+		661C06BEE7454037EFC22ADB636FF347 /* QBKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF921AE2432F972288A7D67DCEDC5D /* QBKeyboard.m */; };
+		6971303E11B98B0DC6EE019DA2534497 /* c_chaKeyboardShiftButtonSel.png in Resources */ = {isa = PBXBuildFile; fileRef = A5FD78601B4F2BB53F6656BD6B0810AE /* c_chaKeyboardShiftButtonSel.png */; };
+		79B6F01A7EE8FDCC0B30CCE7B93F26CC /* QBKeyboardInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D6594E04693AC50DD66FBEF8CA1236 /* QBKeyboardInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B707F941107FDC3975A4D86B17EA950 /* login_c_character_keyboardLoginButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E97760BE26A86BB4FA848B4C9D80BB83 /* login_c_character_keyboardLoginButton@2x.png */; };
+		8190683A528626DD43BD50A2CB62C867 /* c_chaKeyboardButtonSel.png in Resources */ = {isa = PBXBuildFile; fileRef = 193ADE019517F53AC0E6E9CB3C1AB026 /* c_chaKeyboardButtonSel.png */; };
+		85D3536795B088D830D0DF6BF02C4C59 /* QBKeyBoardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BB63D900F36823E33FED2E381AC188 /* QBKeyBoardButton.m */; };
+		87AA8B184CD9E33A09AA2F0C2448CB5A /* MMNumberKeyboardDeleteKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 82436DB721D8759111715260A5FCE4FA /* MMNumberKeyboardDeleteKey.png */; };
+		87EF7B9A1D1E64B0EC63880429FC3F5C /* QBKeyBoardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B328A33B483CE62C9D2754C995D951C4 /* QBKeyBoardButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88509DC48E4D50A26B0C79210D0F0371 /* QBKeyboardInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F61E15A4EEBCD7E167217A87566AFA2D /* QBKeyboardInputAccessoryView.m */; };
+		89481784B3E1E1E8F6804FB65FB0288A /* MMNumberKeyboardDeleteKey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EFC0D2B2403158C368E1C389065DD8 /* MMNumberKeyboardDeleteKey@3x.png */; };
+		9212C158D9A30E98C3559423CD3EBD14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		97F799010C2017B876B20AEDEF3BEC15 /* login_c_symbol_keyboardLoginButton.png@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 730A71AADB17AA3DE78248DD5A7E3348 /* login_c_symbol_keyboardLoginButton.png@2x.png */; };
+		9CE8CBD421A9A01F06311EE070B37A9E /* QBPwdModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E60A7A0249AB8C0465122C0707D93A /* QBPwdModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9E5065B7275BC88F689CA4FEED9D598 /* QBAlphabetView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B417FB0C6220BEBDAA7D53E94977B8 /* QBAlphabetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B641936E2D0AA4C879B735DC21A43C98 /* c_chaKeyboardShiftButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E627750EFF97F2D736A91EE9D2CEB3AA /* c_chaKeyboardShiftButton.png */; };
+		C3D1E4343314F7B3F43CD82AB1E9F49E /* c_chaKeyboardBgButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A724F1D520E151427DB3F39311592 /* c_chaKeyboardBgButton.png */; };
+		E3087B7F179145E79D3A725799FE3154 /* Pods-QBPwdModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F890C0AFFB49F9CE0B68FDE0B64E6FFB /* Pods-QBPwdModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A5C16838777C6A89A6417430BFE480 /* Pods-QBPwdModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D23DA6FDDE6D74F00C5E8AF5053F6C /* Pods-QBPwdModule_Example-dummy.m */; };
+		ECCD0C88BABCF7355935B81554AB1580 /* QBAlphabetView.m in Sources */ = {isa = PBXBuildFile; fileRef = D605D8E6713E54D8747B81D100EDE69F /* QBAlphabetView.m */; };
+		EE8364CF39589CBB4AB1F6026A98C398 /* QBKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C49D0E381F096F8404528E10DFD3E /* QBKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24A8B482D1CBC563297E27F9C4DB1AD /* c_character_keyboardSwitchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18708B1AE4105681DBB9BFFB452D193B /* c_character_keyboardSwitchButton.png */; };
+		F76B80A86785B6BF48084C3529165E24 /* QBPwdModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B22097B1456EEE5F389F562193D529 /* QBPwdModule-dummy.m */; };
+		FF1C0E39F0F67ECAFB05C910D27351F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B3C2A8D1BB97D4C9CFE0964D9C704D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8EF663F187C967991C7B79DAA7D55DA;
+			remoteInfo = QBPwdModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069E93E005AF0BB3F0301B3B31EF7D97 /* c_charKeyboardButton.png */ = {isa = PBXFileReference; includeInIndex = 1; path = c_charKeyboardButton.png; sourceTree = "<group>"; };
+		0D4A724F1D520E151427DB3F39311592 /* c_chaKeyboardBgButton.png */ = {isa = PBXFileReference; includeInIndex = 1; path = c_chaKeyboardBgButton.png; sourceTree = "<group>"; };
+		17AF921AE2432F972288A7D67DCEDC5D /* QBKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QBKeyboard.m; sourceTree = "<group>"; };
+		18708B1AE4105681DBB9BFFB452D193B /* c_character_keyboardSwitchButton.png */ = {isa = PBXFileReference; includeInIndex = 1; path = c_character_keyboardSwitchButton.png; sourceTree = "<group>"; };
+		193ADE019517F53AC0E6E9CB3C1AB026 /* c_chaKeyboardButtonSel.png */ = {isa = PBXFileReference; includeInIndex = 1; path = c_chaKeyboardButtonSel.png; sourceTree = "<group>"; };
+		2029AA36ADF08BBB01F62604BDE73EF1 /* UITextField+QBKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+QBKeyboard.m"; sourceTree = "<group>"; };
+		24B8D42724D9D4CB4C3566B6B77231B2 /* QBPwdModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBPwdModule-prefix.pch"; sourceTree = "<group>"; };
+		28D23DA6FDDE6D74F00C5E8AF5053F6C /* Pods-QBPwdModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBPwdModule_Example-dummy.m"; sourceTree = "<group>"; };
+		303F8F1305FE6AC9939087C4E6074745 /* Pods_QBPwdModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QBPwdModule_Example.framework; path = "Pods-QBPwdModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3966266E30851FBCC65EF6C026996839 /* Pods-QBPwdModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QBPwdModule_Example.modulemap"; sourceTree = "<group>"; };
+		488C9FB619A74B65232AC5D3BD5B6489 /* UIButton+QBConvenient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+QBConvenient.h"; sourceTree = "<group>"; };
+		4CCC14E5975042C785CD7E60FDF4C55A /* login_c_character_keyboardLoginButton.png */ = {isa = PBXFileReference; includeInIndex = 1; path = login_c_character_keyboardLoginButton.png; sourceTree = "<group>"; };
+		58DD7FF666A6B1E9E64A1606668E5039 /* QBSymbolView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QBSymbolView.m; sourceTree = "<group>"; };
+		65BB63D900F36823E33FED2E381AC188 /* QBKeyBoardButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QBKeyBoardButton.m; sourceTree = "<group>"; };
+		6829879036B6E2249CC77F5E2EAC0ADE /* UITextField+QBKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+QBKeyboard.h"; sourceTree = "<group>"; };
+		6F892A45CDFB21C835DD752C51747726 /* Pods-QBPwdModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBPwdModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FC03426F914D516035E6BA3B3AE3F63 /* Pods-QBPwdModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBPwdModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		730A71AADB17AA3DE78248DD5A7E3348 /* login_c_symbol_keyboardLoginButton.png@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "login_c_symbol_keyboardLoginButton.png@2x.png"; sourceTree = "<group>"; };
+		82436DB721D8759111715260A5FCE4FA /* MMNumberKeyboardDeleteKey.png */ = {isa = PBXFileReference; includeInIndex = 1; path = MMNumberKeyboardDeleteKey.png; sourceTree = "<group>"; };
+		87D6594E04693AC50DD66FBEF8CA1236 /* QBKeyboardInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QBKeyboardInputAccessoryView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C8C49D0E381F096F8404528E10DFD3E /* QBKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QBKeyboard.h; sourceTree = "<group>"; };
+		9F2DEF544B3AD1A286627EAE3F74A1C4 /* MMNumberKeyboardDeleteKey@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "MMNumberKeyboardDeleteKey@2x.png"; sourceTree = "<group>"; };
+		A04CFAFFA4ABADFD47EA430E2BA8F5C1 /* QBPwdModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBPwdModule.xcconfig; sourceTree = "<group>"; };
+		A1B417FB0C6220BEBDAA7D53E94977B8 /* QBAlphabetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QBAlphabetView.h; sourceTree = "<group>"; };
+		A5FD78601B4F2BB53F6656BD6B0810AE /* c_chaKeyboardShiftButtonSel.png */ = {isa = PBXFileReference; includeInIndex = 1; path = c_chaKeyboardShiftButtonSel.png; sourceTree = "<group>"; };
+		AFFE6041DC4A8BDC5660CC2A3B36C311 /* Pods-QBPwdModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBPwdModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B0392018A144F36681AF167F617ED1B3 /* QBPwdModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QBPwdModule.modulemap; sourceTree = "<group>"; };
+		B1BC57EA096D53BB393B5357404BB556 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B328A33B483CE62C9D2754C995D951C4 /* QBKeyBoardButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QBKeyBoardButton.h; sourceTree = "<group>"; };
+		B4B22097B1456EEE5F389F562193D529 /* QBPwdModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBPwdModule-dummy.m"; sourceTree = "<group>"; };
+		B6A1B6B906D321F88A93EB32002362B0 /* Pods-QBPwdModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBPwdModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B783CE438B3A42B3D407E60BCC237FFA /* c_character_keyboardDeleteButton.png */ = {isa = PBXFileReference; includeInIndex = 1; path = c_character_keyboardDeleteButton.png; sourceTree = "<group>"; };
+		B8E60A7A0249AB8C0465122C0707D93A /* QBPwdModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBPwdModule-umbrella.h"; sourceTree = "<group>"; };
+		B8EFC0D2B2403158C368E1C389065DD8 /* MMNumberKeyboardDeleteKey@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "MMNumberKeyboardDeleteKey@3x.png"; sourceTree = "<group>"; };
+		BF85643966AFFD552DA6D088C197A932 /* QBSymbolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QBSymbolView.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC3A31147EFA58E8B4A95DD65034CAAB /* QBPwdModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QBPwdModule.framework; path = QBPwdModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D605D8E6713E54D8747B81D100EDE69F /* QBAlphabetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QBAlphabetView.m; sourceTree = "<group>"; };
+		DAFC7009125CEB4D6B07B5CB8678F417 /* Pods-QBPwdModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBPwdModule_Example-resources.sh"; sourceTree = "<group>"; };
+		DDB181E4D0625750D2AB1FA43EDC0601 /* UIButton+QBConvenient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QBConvenient.m"; sourceTree = "<group>"; };
+		E24CE3E771E54E6015C905A22201A361 /* Pods-QBPwdModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBPwdModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4702F3D032259CA0CE92CF14F5F09CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E627750EFF97F2D736A91EE9D2CEB3AA /* c_chaKeyboardShiftButton.png */ = {isa = PBXFileReference; includeInIndex = 1; path = c_chaKeyboardShiftButton.png; sourceTree = "<group>"; };
+		E97760BE26A86BB4FA848B4C9D80BB83 /* login_c_character_keyboardLoginButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "login_c_character_keyboardLoginButton@2x.png"; sourceTree = "<group>"; };
+		F0ABB9F7664DA299E7F91C7CDD58E6F8 /* login_c_symbol_keyboardLoginButton.png */ = {isa = PBXFileReference; includeInIndex = 1; path = login_c_symbol_keyboardLoginButton.png; sourceTree = "<group>"; };
+		F61E15A4EEBCD7E167217A87566AFA2D /* QBKeyboardInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QBKeyboardInputAccessoryView.m; sourceTree = "<group>"; };
+		F890C0AFFB49F9CE0B68FDE0B64E6FFB /* Pods-QBPwdModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBPwdModule_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1A892C517809B6520A3862D8B084995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9212C158D9A30E98C3559423CD3EBD14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97BDB9E36830DB4A3CF0AB6142BF7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1C0E39F0F67ECAFB05C910D27351F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0823E2AB4B2013CFBFBA4E0B3AE0C8CC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1B417FB0C6220BEBDAA7D53E94977B8 /* QBAlphabetView.h */,
+				D605D8E6713E54D8747B81D100EDE69F /* QBAlphabetView.m */,
+				9C8C49D0E381F096F8404528E10DFD3E /* QBKeyboard.h */,
+				17AF921AE2432F972288A7D67DCEDC5D /* QBKeyboard.m */,
+				B328A33B483CE62C9D2754C995D951C4 /* QBKeyBoardButton.h */,
+				65BB63D900F36823E33FED2E381AC188 /* QBKeyBoardButton.m */,
+				87D6594E04693AC50DD66FBEF8CA1236 /* QBKeyboardInputAccessoryView.h */,
+				F61E15A4EEBCD7E167217A87566AFA2D /* QBKeyboardInputAccessoryView.m */,
+				BF85643966AFFD552DA6D088C197A932 /* QBSymbolView.h */,
+				58DD7FF666A6B1E9E64A1606668E5039 /* QBSymbolView.m */,
+				488C9FB619A74B65232AC5D3BD5B6489 /* UIButton+QBConvenient.h */,
+				DDB181E4D0625750D2AB1FA43EDC0601 /* UIButton+QBConvenient.m */,
+				6829879036B6E2249CC77F5E2EAC0ADE /* UITextField+QBKeyboard.h */,
+				2029AA36ADF08BBB01F62604BDE73EF1 /* UITextField+QBKeyboard.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		12396F80CDEC94D4DDCF85B07999D72F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C58B49D825964CEFDEC36300C7F6D7D7 /* QBPwdModule */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2499F8AA3AF143C91BBCCCDA68C7E610 /* Pods-QBPwdModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B1BC57EA096D53BB393B5357404BB556 /* Info.plist */,
+				3966266E30851FBCC65EF6C026996839 /* Pods-QBPwdModule_Example.modulemap */,
+				E24CE3E771E54E6015C905A22201A361 /* Pods-QBPwdModule_Example-acknowledgements.markdown */,
+				6F892A45CDFB21C835DD752C51747726 /* Pods-QBPwdModule_Example-acknowledgements.plist */,
+				28D23DA6FDDE6D74F00C5E8AF5053F6C /* Pods-QBPwdModule_Example-dummy.m */,
+				B6A1B6B906D321F88A93EB32002362B0 /* Pods-QBPwdModule_Example-frameworks.sh */,
+				DAFC7009125CEB4D6B07B5CB8678F417 /* Pods-QBPwdModule_Example-resources.sh */,
+				F890C0AFFB49F9CE0B68FDE0B64E6FFB /* Pods-QBPwdModule_Example-umbrella.h */,
+				6FC03426F914D516035E6BA3B3AE3F63 /* Pods-QBPwdModule_Example.debug.xcconfig */,
+				AFFE6041DC4A8BDC5660CC2A3B36C311 /* Pods-QBPwdModule_Example.release.xcconfig */,
+			);
+			name = "Pods-QBPwdModule_Example";
+			path = "Target Support Files/Pods-QBPwdModule_Example";
+			sourceTree = "<group>";
+		};
+		6796CBC25315A88F6DEF52B2280C5E01 /* QBPwdModule */ = {
+			isa = PBXGroup;
+			children = (
+				0823E2AB4B2013CFBFBA4E0B3AE0C8CC /* Classes */,
+			);
+			name = QBPwdModule;
+			path = QBPwdModule;
+			sourceTree = "<group>";
+		};
+		6C1F3812C5F88EAE7F6BFE0493CBEF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303F8F1305FE6AC9939087C4E6074745 /* Pods_QBPwdModule_Example.framework */,
+				CC3A31147EFA58E8B4A95DD65034CAAB /* QBPwdModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7DD2B6B180C35312F0CB564D21CCE24C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6C1F3812C5F88EAE7F6BFE0493CBEF8F /* Products */,
+				F0417F902AD3C7FCF61C941E52697040 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD2B6B180C35312F0CB564D21CCE24C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3381BA15608BEFABCCBFF6DD29DE4D9 /* QBPwdModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		85BEC1F36C8FCD2F64448430CF1C7E41 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0D4A724F1D520E151427DB3F39311592 /* c_chaKeyboardBgButton.png */,
+				193ADE019517F53AC0E6E9CB3C1AB026 /* c_chaKeyboardButtonSel.png */,
+				E627750EFF97F2D736A91EE9D2CEB3AA /* c_chaKeyboardShiftButton.png */,
+				A5FD78601B4F2BB53F6656BD6B0810AE /* c_chaKeyboardShiftButtonSel.png */,
+				B783CE438B3A42B3D407E60BCC237FFA /* c_character_keyboardDeleteButton.png */,
+				18708B1AE4105681DBB9BFFB452D193B /* c_character_keyboardSwitchButton.png */,
+				069E93E005AF0BB3F0301B3B31EF7D97 /* c_charKeyboardButton.png */,
+				4CCC14E5975042C785CD7E60FDF4C55A /* login_c_character_keyboardLoginButton.png */,
+				E97760BE26A86BB4FA848B4C9D80BB83 /* login_c_character_keyboardLoginButton@2x.png */,
+				F0ABB9F7664DA299E7F91C7CDD58E6F8 /* login_c_symbol_keyboardLoginButton.png */,
+				730A71AADB17AA3DE78248DD5A7E3348 /* login_c_symbol_keyboardLoginButton.png@2x.png */,
+				82436DB721D8759111715260A5FCE4FA /* MMNumberKeyboardDeleteKey.png */,
+				9F2DEF544B3AD1A286627EAE3F74A1C4 /* MMNumberKeyboardDeleteKey@2x.png */,
+				B8EFC0D2B2403158C368E1C389065DD8 /* MMNumberKeyboardDeleteKey@3x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B3381BA15608BEFABCCBFF6DD29DE4D9 /* QBPwdModule */ = {
+			isa = PBXGroup;
+			children = (
+				6796CBC25315A88F6DEF52B2280C5E01 /* QBPwdModule */,
+				12396F80CDEC94D4DDCF85B07999D72F /* Resources */,
+				F46A6592AC8B8EF0C6603B2A5DA382A7 /* Support Files */,
+			);
+			name = QBPwdModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C58B49D825964CEFDEC36300C7F6D7D7 /* QBPwdModule */ = {
+			isa = PBXGroup;
+			children = (
+				85BEC1F36C8FCD2F64448430CF1C7E41 /* Assets */,
+			);
+			name = QBPwdModule;
+			path = QBPwdModule;
+			sourceTree = "<group>";
+		};
+		F0417F902AD3C7FCF61C941E52697040 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2499F8AA3AF143C91BBCCCDA68C7E610 /* Pods-QBPwdModule_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F46A6592AC8B8EF0C6603B2A5DA382A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4702F3D032259CA0CE92CF14F5F09CE /* Info.plist */,
+				B0392018A144F36681AF167F617ED1B3 /* QBPwdModule.modulemap */,
+				A04CFAFFA4ABADFD47EA430E2BA8F5C1 /* QBPwdModule.xcconfig */,
+				B4B22097B1456EEE5F389F562193D529 /* QBPwdModule-dummy.m */,
+				24B8D42724D9D4CB4C3566B6B77231B2 /* QBPwdModule-prefix.pch */,
+				B8E60A7A0249AB8C0465122C0707D93A /* QBPwdModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QBPwdModule";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08809BD7BCBB61298BCE913768BB0104 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E5065B7275BC88F689CA4FEED9D598 /* QBAlphabetView.h in Headers */,
+				EE8364CF39589CBB4AB1F6026A98C398 /* QBKeyboard.h in Headers */,
+				87EF7B9A1D1E64B0EC63880429FC3F5C /* QBKeyBoardButton.h in Headers */,
+				79B6F01A7EE8FDCC0B30CCE7B93F26CC /* QBKeyboardInputAccessoryView.h in Headers */,
+				9CE8CBD421A9A01F06311EE070B37A9E /* QBPwdModule-umbrella.h in Headers */,
+				0A319FD8D142D5824C422FF2B3B772F9 /* QBSymbolView.h in Headers */,
+				1228D872C8CEF7FAA79BD3370B8C70DF /* UIButton+QBConvenient.h in Headers */,
+				3B5DFD82C9765F48AAA0D5992A01C68E /* UITextField+QBKeyboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F078D17672D446FB413B8D0788D9E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3087B7F179145E79D3A725799FE3154 /* Pods-QBPwdModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8F7AC544C14F91DBA6B169A917CA3343 /* Pods-QBPwdModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24EAA655A9ECFA8760F80A38426A444 /* Build configuration list for PBXNativeTarget "Pods-QBPwdModule_Example" */;
+			buildPhases = (
+				B9C2A0B4105A15F82B3F6FB49AAB5BFD /* Sources */,
+				D97BDB9E36830DB4A3CF0AB6142BF7CB /* Frameworks */,
+				13F078D17672D446FB413B8D0788D9E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F2960C7E8643E2BF43B5E617191897 /* PBXTargetDependency */,
+			);
+			name = "Pods-QBPwdModule_Example";
+			productName = "Pods-QBPwdModule_Example";
+			productReference = 303F8F1305FE6AC9939087C4E6074745 /* Pods_QBPwdModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8EF663F187C967991C7B79DAA7D55DA /* QBPwdModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405890A09DA046A1FCBA69E58E542706 /* Build configuration list for PBXNativeTarget "QBPwdModule" */;
+			buildPhases = (
+				772635F36F8385960B22581CDB0FF823 /* Sources */,
+				C1A892C517809B6520A3862D8B084995 /* Frameworks */,
+				08809BD7BCBB61298BCE913768BB0104 /* Headers */,
+				3888ABC0E55C4680C3F1EDCEC1B0ED58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBPwdModule;
+			productName = QBPwdModule;
+			productReference = CC3A31147EFA58E8B4A95DD65034CAAB /* QBPwdModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C1F3812C5F88EAE7F6BFE0493CBEF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F7AC544C14F91DBA6B169A917CA3343 /* Pods-QBPwdModule_Example */,
+				E8EF663F187C967991C7B79DAA7D55DA /* QBPwdModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3888ABC0E55C4680C3F1EDCEC1B0ED58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D1E4343314F7B3F43CD82AB1E9F49E /* c_chaKeyboardBgButton.png in Resources */,
+				8190683A528626DD43BD50A2CB62C867 /* c_chaKeyboardButtonSel.png in Resources */,
+				B641936E2D0AA4C879B735DC21A43C98 /* c_chaKeyboardShiftButton.png in Resources */,
+				6971303E11B98B0DC6EE019DA2534497 /* c_chaKeyboardShiftButtonSel.png in Resources */,
+				5F9FE11577883679DEB1593202B6A6BE /* c_character_keyboardDeleteButton.png in Resources */,
+				F24A8B482D1CBC563297E27F9C4DB1AD /* c_character_keyboardSwitchButton.png in Resources */,
+				4D11E26B124F42634CE0DB3507569E05 /* c_charKeyboardButton.png in Resources */,
+				27A5BE096351ADC43EE0EC1D282B434C /* login_c_character_keyboardLoginButton.png in Resources */,
+				7B707F941107FDC3975A4D86B17EA950 /* login_c_character_keyboardLoginButton@2x.png in Resources */,
+				4D09DDEB4A5B6C59985361D441E07D93 /* login_c_symbol_keyboardLoginButton.png in Resources */,
+				97F799010C2017B876B20AEDEF3BEC15 /* login_c_symbol_keyboardLoginButton.png@2x.png in Resources */,
+				87AA8B184CD9E33A09AA2F0C2448CB5A /* MMNumberKeyboardDeleteKey.png in Resources */,
+				0CCF7885FDA75A588D65B81B249CA740 /* MMNumberKeyboardDeleteKey@2x.png in Resources */,
+				89481784B3E1E1E8F6804FB65FB0288A /* MMNumberKeyboardDeleteKey@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		772635F36F8385960B22581CDB0FF823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD0C88BABCF7355935B81554AB1580 /* QBAlphabetView.m in Sources */,
+				661C06BEE7454037EFC22ADB636FF347 /* QBKeyboard.m in Sources */,
+				85D3536795B088D830D0DF6BF02C4C59 /* QBKeyBoardButton.m in Sources */,
+				88509DC48E4D50A26B0C79210D0F0371 /* QBKeyboardInputAccessoryView.m in Sources */,
+				F76B80A86785B6BF48084C3529165E24 /* QBPwdModule-dummy.m in Sources */,
+				545D1973E67A54FDF8A9E1BC62DF4C0C /* QBSymbolView.m in Sources */,
+				30047066E32A9166F0839A83E2BC06E3 /* UIButton+QBConvenient.m in Sources */,
+				601F62DBC4ED738DEC584905D937E9BB /* UITextField+QBKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C2A0B4105A15F82B3F6FB49AAB5BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A5C16838777C6A89A6417430BFE480 /* Pods-QBPwdModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64F2960C7E8643E2BF43B5E617191897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QBPwdModule;
+			target = E8EF663F187C967991C7B79DAA7D55DA /* QBPwdModule */;
+			targetProxy = 63B3C2A8D1BB97D4C9CFE0964D9C704D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ECE02B52A67F960199BC373A5FE3EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC03426F914D516035E6BA3B3AE3F63 /* Pods-QBPwdModule_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QBPwdModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBPwdModule_Example/Pods-QBPwdModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QBPwdModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C4C2AAE86D5DE1845C93618B7A5C47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFE6041DC4A8BDC5660CC2A3B36C311 /* Pods-QBPwdModule_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QBPwdModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBPwdModule_Example/Pods-QBPwdModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QBPwdModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A20DBEB819F7CF610916DE3A01F48515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04CFAFFA4ABADFD47EA430E2BA8F5C1 /* QBPwdModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QBPwdModule/QBPwdModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBPwdModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBPwdModule/QBPwdModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QBPwdModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2C3B371905AE2A23ECBBDEB6C43CE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04CFAFFA4ABADFD47EA430E2BA8F5C1 /* QBPwdModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QBPwdModule/QBPwdModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBPwdModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBPwdModule/QBPwdModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QBPwdModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405890A09DA046A1FCBA69E58E542706 /* Build configuration list for PBXNativeTarget "QBPwdModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C3B371905AE2A23ECBBDEB6C43CE42 /* Debug */,
+				A20DBEB819F7CF610916DE3A01F48515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24EAA655A9ECFA8760F80A38426A444 /* Build configuration list for PBXNativeTarget "Pods-QBPwdModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECE02B52A67F960199BC373A5FE3EA2 /* Debug */,
+				6C4C2AAE86D5DE1845C93618B7A5C47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

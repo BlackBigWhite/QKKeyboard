@@ -1,0 +1,23 @@
+{
+  "name": "QBPwdModule",
+  "version": "2.2",
+  "summary": "Guide for private pods :",
+  "description": "Guide for private pods",
+  "homepage": "http://git.qianbaoqm.com/mobileios/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qiaokai": "jinqiucheng1006@live.cn"
+  },
+  "source": {
+    "git": "http://git.qianbaoqm.com/mobileios/QBPwdModule.git",
+    "tag": "2.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QBPwdModule/Classes/*.{h,m}",
+  "resources": "QBPwdModule/Assets/*.png"
+}
