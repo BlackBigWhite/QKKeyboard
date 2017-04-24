@@ -5,21 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/QBPwdModule.svg?style=flat)](http://cocoapods.org/pods/QBPwdModule)
 [![Platform](https://img.shields.io/cocoapods/p/QBPwdModule.svg?style=flat)](http://cocoapods.org/pods/QBPwdModule)
 
->>```
+```
 source 'http://git.qianbaoqm.com/mobileios/QBSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 target ‘target_name’ do
 pod 'QBPwdModule', '~> 2.5’
 end
->>```
+```
 
 SDK使用说明:<br>
 ---------------
 
 >1.初始化:<br>
 
->>```
+```
 #import "QBKeyboard.h"
 -------
 QBKeyboard *keyboard = [[QBKeyboard alloc] initWithFrame:CGRectZero];
@@ -37,21 +37,21 @@ textField.font = [UIFont systemFontOfSize:24.0f];
 #import "UITextField+QBKeyboard.h"
 --------
 [self.textfield addKeyBoardViewWithType:QBKeyboardTypeNumandABC title:@"廊坊安全键盘"];
->>```
+```
 
 >2.实现协议:<br>
 
->>```
+```
 - (BOOL)keyboard:(QBKeyboard *)keyboard shouldInsertText:(NSString *)text;
->>```
+```
 
->>```
+```
 - (BOOL)keyboardShouldReturn:(QBKeyboard *)keyboard;
->>```
+```
 
->>```
+```
 - (BOOL)keyboardShouldDeleteBackward:(QBKeyboard *)keyboard;
->>```
+```
 
 ## Example
 
