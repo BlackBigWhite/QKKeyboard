@@ -21,7 +21,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [self.textfield addKeyBoardViewWithType:QBKeyboardTypeAlphabetandandNumABC title:@"安全键盘"];
+//    [self.textfield addKeyBoardViewWithType:QBKeyboardTypeNumandX title:@""];
+    QBKeyboard *keyboard = [[QBKeyboard alloc] initWithFrame:CGRectZero];
+    keyboard.keyboardType = QBKeyboardTypeNumandX;
+    self.textfield.inputView = keyboard;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

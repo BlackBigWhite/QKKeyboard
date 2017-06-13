@@ -1,0 +1,95 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/ios/QKKeyboard/Example/DerivedData/QBPwdModule/Build/Products/Debug-iphonesimulator/Pods_QBPwdModule_Example.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-QBPwdModule_Example-umbrella.h",
+          'external-contents': "/Users/ios/QKKeyboard/Example/Pods/Target Support Files/Pods-QBPwdModule_Example/Pods-QBPwdModule_Example-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_QBPwdModule_Example-Swift.h",
+          'external-contents': "/Users/ios/QKKeyboard/Example/DerivedData/QBPwdModule/Build/Products/Debug-iphonesimulator/Pods_QBPwdModule_Example.framework/Headers/Pods_QBPwdModule_Example-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ios/QKKeyboard/Example/DerivedData/QBPwdModule/Build/Products/Debug-iphonesimulator/Pods_QBPwdModule_Example.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ios/QKKeyboard/Example/DerivedData/QBPwdModule/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-QBPwdModule_Example.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ios/QKKeyboard/Example/DerivedData/QBPwdModule/Build/Products/Debug-iphonesimulator/QBPwdModule/QBPwdModule.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "QBAlphabetView.h",
+          'external-contents': "/Users/ios/QKKeyboard/QBPwdModule/Classes/QBAlphabetView.h"
+        },
+        {
+          'type': 'file',
+          'name': "QBKeyBoardButton.h",
+          'external-contents': "/Users/ios/QKKeyboard/QBPwdModule/Classes/QBKeyBoardButton.h"
+        },
+        {
+          'type': 'file',
+          'name': "QBKeyboard.h",
+          'external-contents': "/Users/ios/QKKeyboard/QBPwdModule/Classes/QBKeyboard.h"
+        },
+        {
+          'type': 'file',
+          'name': "QBKeyboardInputAccessoryView.h",
+          'external-contents': "/Users/ios/QKKeyboard/QBPwdModule/Classes/QBKeyboardInputAccessoryView.h"
+        },
+        {
+          'type': 'file',
+          'name': "QBPwdModule-Swift.h",
+          'external-contents': "/Users/ios/QKKeyboard/Example/DerivedData/QBPwdModule/Build/Products/Debug-iphonesimulator/QBPwdModule/QBPwdModule.framework/Headers/QBPwdModule-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "QBPwdModule-umbrella.h",
+          'external-contents': "/Users/ios/QKKeyboard/Example/Pods/Target Support Files/QBPwdModule/QBPwdModule-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "QBSymbolView.h",
+          'external-contents': "/Users/ios/QKKeyboard/QBPwdModule/Classes/QBSymbolView.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+QBConvenient.h",
+          'external-contents': "/Users/ios/QKKeyboard/QBPwdModule/Classes/UIButton+QBConvenient.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITextField+QBKeyboard.h",
+          'external-contents': "/Users/ios/QKKeyboard/QBPwdModule/Classes/UITextField+QBKeyboard.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ios/QKKeyboard/Example/DerivedData/QBPwdModule/Build/Products/Debug-iphonesimulator/QBPwdModule/QBPwdModule.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ios/QKKeyboard/Example/DerivedData/QBPwdModule/Build/Intermediates/Pods.build/Debug-iphonesimulator/QBPwdModule.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
